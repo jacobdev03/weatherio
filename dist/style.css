@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(65, 65, 87);
+  color: white;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: #f4eee0;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #393646;
+  height: 100px;
+  width: 100%;
+}
+
+.search {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 40px;
+  width: 475px;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 2px solid rgb(83, 83, 83);
+}
+
+.card {
+  border-radius: 25px;
+  width: 500px;
+  background-color: rgb(32, 32, 41);
+  padding: 25px;
+}
+
+.city-name {
+  font-size: 32px;
+  color: #f4eee0;
+}
+
+.container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.container p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 320px;
+  }
+  .card {
+    width: 320px;
+  }
+}
