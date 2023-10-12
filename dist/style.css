@@ -51,6 +51,10 @@ body {
   background-color: rgb(32, 32, 41);
   padding: 25px;
 }
+.currentDate {
+  font-weight: 300;
+  font-style: italic;
+}
 
 .city-name {
   font-size: 32px;
